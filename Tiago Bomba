@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Bomba 18600 - Candidato a Vereador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            position: relative;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 2;
+            position: relative;
+        }
+        header img.logo {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        header img.nome-numero {
+            max-width: 200px;
+            display: block;
+            margin: 10px auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            z-index: 2;
+            position: relative;
+            background-color: #f4f4f4;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #007BFF;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .left-aligned p {
+            text-align: left;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn-whatsapp {
+            background-color: #25D366; /* Verde do WhatsApp */
+            margin-left: 10px;
+        }
+        .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-icons a {
+            margin: 0 20px;
+            display: inline-block;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        .contact-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .side-image {
+            position: fixed;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            z-index: 1;
+            background-size: cover;
+            background-position: center;
+        }
+        .left-side {
+            left: 0;
+            background-image: url('candidato_esquerda.jpg'); /* Substitua pela foto do lado esquerdo */
+        }
+        .right-side {
+            right: 0;
+            background-image: url('candidato_direita.jpg'); /* Substitua pela foto do lado direito */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 2;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="side-image left-side"></div>
+    <div class="side-image right-side"></div>
+
+    <header>
+        <!-- Substitua 'logo.png' pelo caminho correto da logo -->
+        <img src="https://drive.google.com/file/d/1KRH3Xg3EUZKN6P9geK_6ZusLOSt-e7L9/view?usp=drive_link" alt="Logo Tiago Bomba" class="logo">
+        <!-- Substitua 'nome.png' pelo caminho da imagem com o nome do candidato -->
+        <img src="C:\Users\162749\Downloads\Gold and Black Luxury Architecture Logo (1090 x 1080 px).png" alt="Nome Tiago Bomba" class="nome-numero">
+        <!-- Substitua 'numero.png' pelo caminho da imagem com o número do candidato -->
+        <img src="numero.png" alt="Número 18600" class="nome-numero">
+    </header>
+
+    <div class="container">
+        <section id="sobre" class="left-aligned">
+            <h2>Sobre Tiago Bomba</h2>
+            <p>Tiago Bomba é um líder comunitário comprometido com as causas sociais de Contagem. Com anos de trabalho dedicado ao bem-estar da população, Tiago se destaca pela sua integridade, determinação e paixão por fazer a diferença.</p>
+        </section>
+
+        <section id="propostas" class="left-aligned">
+            <h2>Propostas</h2>
+            <p>1. Melhorar a segurança pública através de parcerias com as forças de segurança e a implementação de políticas preventivas.</p>
+            <p>2. Fortalecer a educação com investimentos em infraestrutura e qualificação dos professores.</p>
+            <p>3. Incentivar o desenvolvimento econômico local com apoio a pequenos e médios empreendedores.</p>
+            <p>4. Promover ações voltadas para a saúde preventiva e melhoria dos serviços de saúde.</p>
+        </section>
+
+        <section id="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/tiagobomba_?igsh=eXIyN3J6eXI1MXR3&utm_source=qr" target="_blank">
+                    <img src="C:\Users\162749\Downloads\Black and White Square Entertainment Logo (1).png" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/@tiago.bomba_?_t=8oyrFoPjkk2&_r=1" target="_blank">
+                    <img src="C:\Users\162749\Downloads\0de3abf5-b86f-42cc-a1f3-1275164d9190.png" alt="TikTok">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61552611186176&mibextid=LQQJ4d" target="_blank">
+                    <img src="C:\Users\162749\Downloads\Black and White Square Entertainment Logo (2).png" alt="Facebook">
+                </a>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato para saber mais sobre nossas propostas e como você pode se envolver.</p>
+            <div class="contact-buttons">
+                <a href="mailto:tiagobombavereador@gmail.com" class="btn">Envie um Email</a>
+                <a href="https://wa.me/55319971773484" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Rodrigo Augusto - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
